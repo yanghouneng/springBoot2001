@@ -14,4 +14,10 @@ public interface CityService {
 
 	public Result<City> insertCity(City city);
 
+	public Result<City> updateCity(City city);
+
+	public Result<Object> deleteCity(int cityId);
+
+	public City getCityByName(String cityName, String localCityName);
+
 }
